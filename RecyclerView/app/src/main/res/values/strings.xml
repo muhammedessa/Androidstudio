@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string name="details_info">Employee info</string>
+</resources>

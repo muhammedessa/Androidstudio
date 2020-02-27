@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowActivity">
+
+    <TextView
+        android:id="@+id/textViewlatitude"
+        android:layout_width="242dp"
+        android:layout_height="73dp"
+        android:text="Latitude"
+        app:layout_constraintBottom_toTopOf="@+id/textViewlongitude"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewlongitude"
+        android:layout_width="233dp"
+        android:layout_height="72dp"
+        android:text="Longitude"
+        app:layout_constraintBottom_toTopOf="@+id/textViewName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewlatitude" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="291dp"
+        android:layout_height="84dp"
+        android:text="place name"
+        app:layout_constraintBottom_toTopOf="@+id/buttonEdit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewlongitude" />
+
+    <Button
+        android:id="@+id/buttonEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.724"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewName" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonEdit"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewName" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonEdit" />
+</androidx.constraintlayout.widget.ConstraintLayout>

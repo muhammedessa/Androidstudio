@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Places</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="savebutton">Save place</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="action_favorite">logout</string>
+</resources>

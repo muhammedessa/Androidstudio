@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Places API</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="update">update</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.ShowActivity">
+
+    <TextView
+        android:id="@+id/latitudeShow"
+        android:layout_width="333dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/longitudeShow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/longitudeShow"
+        android:layout_width="321dp"
+        android:layout_height="57dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/nameShow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/latitudeShow" />
+
+    <TextView
+        android:id="@+id/nameShow"
+        android:layout_width="319dp"
+        android:layout_height="61dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/deleteButtonShow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/longitudeShow" />
+
+    <Button
+        android:id="@+id/editButtonShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        app:layout_constraintBottom_toTopOf="@+id/logoutButtonShow"
+        app:layout_constraintEnd_toStartOf="@+id/deleteButtonShow"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameShow" />
+
+    <Button
+        android:id="@+id/deleteButtonShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        app:layout_constraintBottom_toTopOf="@+id/logoutButtonShow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/editButtonShow"
+        app:layout_constraintTop_toBottomOf="@+id/nameShow" />
+
+    <Button
+        android:id="@+id/logoutButtonShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editButtonShow" />
+</androidx.constraintlayout.widget.ConstraintLayout>

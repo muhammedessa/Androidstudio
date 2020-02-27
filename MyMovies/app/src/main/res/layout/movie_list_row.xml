@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?android:attr/selectableItemBackground"
+
+    android:paddingBottom="10sp"
+    android:paddingLeft="16sp"
+    android:paddingRight="16sp"
+    android:paddingTop="10sp"
+
+
+    >
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="385dp"
+        android:layout_height="162dp">
+
+
+        <LinearLayout
+            android:layout_width="388dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+
+                android:layout_width="178dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="16sp"
+                android:paddingTop="10sp"
+                android:paddingRight="16sp"
+                android:paddingBottom="10sp">
+
+
+                <TextView
+                    android:id="@+id/mytitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Title"
+                    android:textColor="#222222"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/mytitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mytitle"
+                    android:text="Year"
+                    android:textColor="#999999" />
+
+
+                <TextView
+                    android:id="@+id/genre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mytitle"
+                    android:text="Genre"
+                    android:textColor="#999999" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="197dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

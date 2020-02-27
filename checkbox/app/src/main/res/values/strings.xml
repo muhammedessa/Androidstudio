@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">check box</string>
+    <string name="result">Result</string>
+    <string name="java">Java</string>
+    <string name="python">Python</string>
+    <string name="ruby">Ruby</string>
+    <string name="php">PHP</string>
+    <string name="show">Show</string>
+</resources>

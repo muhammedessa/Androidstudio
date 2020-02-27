@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Alert Dialog</string>
+    <string name="muhammed_essa">Muhammed Essa</string>
+    <string name="hello_message">Hello am message</string>
+    <string name="positive_button">Yes</string>
+    <string name="negative_button">No</string>
+</resources>

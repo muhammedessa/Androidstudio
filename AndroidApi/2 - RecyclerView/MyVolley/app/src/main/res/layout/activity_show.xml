@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.ShowActivity">
+
+    <TextView
+        android:id="@+id/nameViewText"
+        android:layout_width="315dp"
+        android:layout_height="43dp"
+        android:text="Name"
+        app:layout_constraintBottom_toTopOf="@+id/authorViewText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/authorViewText"
+        android:layout_width="313dp"
+        android:layout_height="50dp"
+        android:text="Author"
+        app:layout_constraintBottom_toTopOf="@+id/created_atViewText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameViewText" />
+
+    <TextView
+        android:id="@+id/created_atViewText"
+        android:layout_width="313dp"
+        android:layout_height="59dp"
+        android:text="Created at"
+        app:layout_constraintBottom_toTopOf="@+id/buttonEdit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/authorViewText" />
+
+    <Button
+        android:id="@+id/buttonEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonDelete"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/created_atViewText" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonEdit"
+        app:layout_constraintTop_toBottomOf="@+id/created_atViewText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

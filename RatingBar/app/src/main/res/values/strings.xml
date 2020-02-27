@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Rating Bar</string>
+    <string name="result">Result</string>
+    <string name="show">Show</string>
+</resources>

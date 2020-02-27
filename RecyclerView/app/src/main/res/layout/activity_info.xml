@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="311dp"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.179" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="357dp"
+        android:layout_height="72dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.378" />
+
+    <TextView
+        android:id="@+id/infodetails"
+        android:layout_width="258dp"
+        android:layout_height="335dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.959" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="210dp"
+        android:layout_height="53dp"
+        android:fontFamily="@font/alegreya_sans_sc_medium"
+        android:gravity="center"
+        android:text="@string/details_info"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053" />
+</androidx.constraintlayout.widget.ConstraintLayout>

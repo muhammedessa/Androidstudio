@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Bottom Navigation items</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Profile</string>
+</resources>
